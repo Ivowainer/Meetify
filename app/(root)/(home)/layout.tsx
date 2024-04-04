@@ -1,6 +1,14 @@
 import Navbar from "@/components/Navbar";
 import Sidebar from "@/components/Sidebar";
 
+export const metadata: Metadata = {
+    title: "Meetify",
+    description: "Video Calling App",
+    icons:{
+        icon: '/icons/logo.svg'
+    }
+};
+
 const HomeLayout = ({ children }: { children: React.ReactNode }) => {
     return (
         <main className="relative">
